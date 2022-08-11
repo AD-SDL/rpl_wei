@@ -1,0 +1,6 @@
+modules:
+  - name: OT2-1
+    type: OT2
+    config:
+      ip: "169.254.45.207"
+      port: 31950

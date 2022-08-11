@@ -1,0 +1,22 @@
+equipment:
+  - name: corning_96_wellplate_360ul_flat
+    location: "1"
+    alias: source
+  - name: corning_96_wellplate_360ul_flat
+    location: "2"
+    alias: destination
+  - name: opentrons_96_tiprack_300ul
+    location: "9"
+  - name: p300_single_gen2
+    mount: right
+commands:
+  - name: example command
+    source: source:[A1, A2, A3]
+    destination: destination:[B1, B2, B3]
+    volume: [15, 100, 200]
+
+metadata:
+  protocolName: WaggleDemo
+  author: Kyle khippe@anl.gov
+  description: Waggle demo protocol
+  apiLevel: "2.12"

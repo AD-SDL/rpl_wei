@@ -1,0 +1,22 @@
+metadata:
+  name: example workflow
+  author: Author
+  info: extended info
+  version: 0.1
+
+workcell: /Users/kyle/github/rpl_wei/demo/workflow_files/demo_wc.yaml
+
+modules:
+  - name: OT2-1
+    type: OT2
+    id: some_unique_id
+
+flowdef:
+  - name: OT2 protocol demo
+    module: OT2-1
+    actions:
+      - name: Demo protocol
+        instruction: run_protocol
+        args:
+          config_path: /Users/kyle/github/rpl_wei/demo/workflow_files/ot2_protocol.yaml
+        comment: Demo protocol comments
