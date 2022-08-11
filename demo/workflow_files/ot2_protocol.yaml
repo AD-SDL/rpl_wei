@@ -5,15 +5,15 @@ equipment:
   - name: corning_96_wellplate_360ul_flat
     location: "2"
     alias: destination
-  - name: opentrons_96_tiprack_300ul
+  - name: opentrons_96_tiprack_20ul
     location: "9"
-  - name: p300_single_gen2
+  - name: p20_single_gen2
     mount: right
 commands:
   - name: example command
     source: source:[A1, A2, A3]
     destination: destination:[B1, B2, B3]
-    volume: [15, 100, 200]
+    volume: [1, 10, 15]
 
 metadata:
   protocolName: WaggleDemo
