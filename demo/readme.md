@@ -17,5 +17,6 @@
     ```
 
 # Running 
+1. Switch to demo branch `git switch demo/waggle`
 1. Make sure to change hardcoded paths in `workflow_files/demo_wf.yaml` to follow your directory layout. (You can use relative paths if you know where you are going to execute the script, but absolute paths might be better)
 1. Run `python demo_client.py -wc workflow_files/demo_wf.yaml`
